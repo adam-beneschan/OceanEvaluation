@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+   <HEAD>
+      <TITLE>OCEAN Conference Evaluation - Home</TITLE>
+      <STYLE type="text/css">
+        @import "oce_buttons.css";
+        .style1 { font-family: "Times New Roman"; font-weight: bolder; 
+                  font-size: 24pt; color: orange }
+      </STYLE>
+      <SCRIPT type="text/javascript" src="jquery-1.9.1.js">
+      </SCRIPT>
+      <SCRIPT type="text/javascript" src="oce_common.js">
+      </SCRIPT>
+      <SCRIPT type="text/javascript">
+      $(function () {
+           $("BUTTON").map(OCEFixButton);
+        });
+      </SCRIPT>
+   </HEAD>
+   <BODY>
+      <DIV style="text-align: center; padding-bottom: 4em" class="style1">
+      Welcome to OCEAN Conference Evaluation Entry!
+      </DIV>
+      <P>
+      <DIV style="text-align: center; padding-bottom: 3em">
+      <BUTTON class="largebutton" onclick="document.location='oce_confeval.html';">
+      Enter conference evaluation data</BUTTON>
+      </DIV>
+      <DIV style="text-align: center; padding-bottom: 3em">
+      <BUTTON class="largebutton" onclick="document.location='oce_sesseval.html';">
+      Enter session evaluation data</BUTTON>
+      </DIV>
+      <DIV style="text-align: center; padding-bottom: 3em">
+      <BUTTON class="smallbutton" onclick="document.location='oce_reports.html';">
+      Reports</BUTTON>
+      </DIV>
+      <P>
+   </BODY>
+</HTML>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+   <HEAD>
+      <TITLE>OCEAN Conference Evaluation - Conference Evaluation Data</TITLE>
+      <STYLE type="text/css">
+        @import "oce_buttons.css";
+        @import "oce_common.css";
+        .title { font-family: "Times New Roman"; font-weight: bolder; 
+                  font-size: 24pt }
+        .optionnum { font-family: "Times New Roman"; font-size: 12pt; 
+                     display: block; float: left;
+                     height: 22px; width: 14px;
+                       /* 22x14 are the dimensions of the red oval used
+                          to encircle a digit. */
+                     text-align: center;
+                   }
+        .optionnum-box { margin-bottom: -7px }
+             /* The class of the inline-block box containing the option
+                number.  margin-bottom will get the number positioned
+                correctly.  I think the margin has to be lower to accommodate
+                the oval. */
+        .numericval { font-family: "Arial"; font-weight: bolder;
+                      font-size: 12pt; color: red };
+        </STYLE>
+      <SCRIPT type="text/javascript" src="jquery-1.9.1.js">
+      </SCRIPT>
+      <SCRIPT type="text/javascript" src="oce_common.js">
+      </SCRIPT>
+      <SCRIPT type="text/javascript" src="oce_confeval.js">
+      </SCRIPT>
+   </HEAD>
+   <BODY>
+      <DIV style="text-align: center; padding-bottom: 1em" class="title">
+      Conference Evaluation Data 
+      </DIV>
+      <DIV id="phperror">
+      </DIV>
+      <DIV id="confeval"></DIV>
+      <DIV style="text-align: center; padding-top: 1em; padding-bottom: 1em">
+      Total evaluation forms: <SPAN id="confevaltotal">0</SPAN>
+      </DIV>
+   </BODY>
+</HTML>
